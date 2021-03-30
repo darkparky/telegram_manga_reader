@@ -1,7 +1,7 @@
 import requests, json, csv, random, os, multiprocessing, html, time, os
 
 # URL and auth token for bot requests
-token =  # enter the API token from BotFather here
+token = '1663693380:AAGtTYi2CDq43JzBhWrijwDyLDQo-1kfXpg' # enter the API token from BotFather here
 url = 'https://api.telegram.org/bot%s/' % token
 
 # Create a `Session` instance to customize how `requests` handles making HTTP requests.
